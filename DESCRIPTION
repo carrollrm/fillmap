@@ -1,0 +1,15 @@
+Package: fillmap
+Title: Create maps with SpatialPolygons objects
+Version: 0.0.0.9000
+Authors@R: 
+    person("Rachel", "Carroll", , "rcarroll@air.org", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5895-0031"))
+Description: This function offers several options for creating plots with
+    SpatialPolygons objects. This can be a single plot or multiple plots. These
+    multi-plots can have the same legend or individual legends. Additionally, the
+    layout call within this function offers many options for improving the resulting
+    figures. A new function in this package, fillmap2, offers continuous shading via the viridis package.
+License: `use_mit_license()`
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0.9000
